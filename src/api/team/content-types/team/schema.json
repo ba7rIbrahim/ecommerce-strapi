@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "team"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "teamLead": {
+      "type": "string"
+    },
+    "AreYourLeader": {
+      "type": "boolean"
+    }
+  }
+}
